@@ -38,13 +38,13 @@ User upload image → Image Prepreprocessing → Stage 1 (Deep Learning) Leg / N
 
 ## Models
 Stage 1 – Leg Detection
-Model: MobileNet (Transfer Learning)
-Task: Binary Classification
-Classes:Leg, Non-Leg
+- Model: MobileNet (Transfer Learning)
+- Task: Binary Classification
+- Classes:Leg, Non-Leg
 
 Stage 2 – Disease Severity Prediction
-Two machine learning models are used: K-Nearest Neighbors (KNN), Support Vector Machine (SVM)
-Feature Extraction: Histogram of Oriented Gradients (HOG)
+- Two machine learning models are used: K-Nearest Neighbors (KNN), Support Vector Machine (SVM)
+- Feature Extraction: Histogram of Oriented Gradients (HOG)
 
 ## Application Interface
 
@@ -52,15 +52,15 @@ Input interface:
 User provides patient information and uploads an image
 
 Output Example:
-Patient Name: Sanju
-Age: 31
-Gender: Male
+- Patient Name: Sanju
+- Age: 31
+- Gender: Male
 
-KNN Prediction: Level 2
+KNN Prediction: Level 2       
 SVM Prediction: Level 2
 
 If the uploaded image is not a leg image:
--> The image is not valid for prediction and shows undefined
+→ The image is not valid for prediction and shows undefined
 
 
 
