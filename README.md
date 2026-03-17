@@ -53,10 +53,14 @@ Input interface:
 User provides patient information and uploads an image
 
 Output Example:
+
 ![image Alt](https://github.com/kritika-vish/LegDisease-Detection-System/blob/9b494afff20dc6ed475b7db48dd88d6b074f1f30/App%20interface/Screenshot%202026-03-15%20113715.png)
 
 If the uploaded image is not valid:
-→ The image is not valid for prediction and shows undefined
+
+![image Alt](https://github.com/kritika-vish/LegDisease-Detection-System/blob/190bd3f8b1ef914e3a77a9c8d2794544a2509faa/App%20interface/Screenshot%202026-03-15%20113912.png)
+
+The history of the predictions done is also shown at the bottom.
 
 
 
