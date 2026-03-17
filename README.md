@@ -61,6 +61,7 @@ If the uploaded image is not valid:
 ![image Alt](https://github.com/kritika-vish/LegDisease-Detection-System/blob/190bd3f8b1ef914e3a77a9c8d2794544a2509faa/App%20interface/Screenshot%202026-03-15%20113912.png)
 
 The history of the predictions done is also shown at the bottom.
+![image Alt](https://github.com/kritika-vish/LegDisease-Detection-System/blob/f850ff6d8e013afe40e63092dae43dbb7441c9c3/App%20interface/Screenshot%202026-03-15%20114040.png)
 
 
 
