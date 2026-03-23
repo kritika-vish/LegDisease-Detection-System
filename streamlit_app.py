@@ -10,8 +10,12 @@ from tensorflow.keras.models import load_model
 
 stage1_model = load_model("leg_model_final")
 
-knn_model = pickle.load(open("knn_pipeline.pkl", "rb"))
-svm_model = pickle.load(open("svm_model.pkl", "rb"))
+with open("knn_pipeline.pkl", "rb") as f:
+    knn_model = pickle.load(f)
+
+with open("svm_model.pkl", "rb") as f:
+    svm_model = pickle.load(f)
+    
 svm_scaler = pickle.load(open("svm_scaler.pkl", "rb"))
 svm_pca = pickle.load(open("svm_pca.pkl", "rb"))
 
