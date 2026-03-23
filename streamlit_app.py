@@ -5,19 +5,16 @@ import pickle
 from PIL import Image
 from skimage.feature import hog
 from tensorflow.keras.models import load_model
+import joblib
 
 # ---------------- LOAD MODELS ----------------
 
 stage1_model = load_model("leg_model_final")
 
-with open("knn_pipeline.pkl", "rb") as f:
-    knn_model = pickle.load(f)
-
-with open("svm_model.pkl", "rb") as f:
-    svm_model = pickle.load(f)
-    
-svm_scaler = pickle.load(open("svm_scaler.pkl", "rb"))
-svm_pca = pickle.load(open("svm_pca.pkl", "rb"))
+knn_model = joblib.load("knn_pipeline_new.pkl")
+svm_model = joblib.load("svm_model_new.pkl")
+svm_scaler = joblib.load("svm_scaler_new.pkl")
+svm_pca = joblib.load("svm_pca_new.pkl")
 
 # ---------------- PREPROCESS ----------------
 
