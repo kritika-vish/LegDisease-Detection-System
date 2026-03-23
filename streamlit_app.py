@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 
 # ---------------- LOAD MODELS ----------------
 
-stage1_model = load_model("leg_model.h5", compile=False)
+stage1_model = load_model("leg_model_new.keras")
 
 knn_model = pickle.load(open("knn_pipeline.pkl", "rb"))
 svm_model = pickle.load(open("svm_model.pkl", "rb"))
